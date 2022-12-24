@@ -1,0 +1,9 @@
+{
+	"name": "adf-restorecopy",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e0618b28-48ff-4c74-82ea-83a0d5e6d310",
+		"tenantId": "e0793d39-0939-496d-b129-198edd916feb"
+	}
+}
