@@ -34,7 +34,8 @@
 				}
 			},
 			{
-				"name": "ForEach1",
+				"name": "ForEach",
+				"description": "iterate all the files in storage account",
 				"type": "ForEach",
 				"dependsOn": [
 					{
@@ -44,7 +45,13 @@
 						]
 					}
 				],
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"items": {
+						"value": "@activity('Get Metadata').output.childItems",
+						"type": "Expression"
+					}
+				}
 			}
 		],
 		"annotations": []
