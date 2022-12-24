@@ -1,0 +1,7 @@
+{
+	"name": "pl_multipletables",
+	"properties": {
+		"description": "move data from multiple files to multiple tables",
+		"annotations": []
+	}
+}
