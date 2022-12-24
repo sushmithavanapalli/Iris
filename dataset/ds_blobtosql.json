@@ -1,5 +1,5 @@
 {
-	"name": "ds_outputorders",
+	"name": "ds_blobtosql",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "ls_ordersblobstorage",
@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"container": "output"
+				"container": "input"
 			},
 			"columnDelimiter": "\t",
 			"escapeChar": "\\",
