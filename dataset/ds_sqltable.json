@@ -1,0 +1,19 @@
+{
+	"name": "ds_sqltable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_ordersblobstorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "input"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": []
+	}
+}
